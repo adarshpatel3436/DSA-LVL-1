@@ -12,10 +12,10 @@ public class printIncreasing {
 
     }
     public static void increase(int n){
-        if(n == 50){
-            return ;
+        if(n==0){
+            return;
         }
+        increase(n-1);
         System.out.println(n);
-        increase(n + 1);
     }
 }
