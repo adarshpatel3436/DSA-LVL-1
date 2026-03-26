@@ -1,5 +1,7 @@
 # Nados (Pepcoding) Level-1 Questions
-src -> all topics
+src -> topics -> questions
+
+
 
 
 created by me (@adarshpatel3436)
