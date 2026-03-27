@@ -24,7 +24,7 @@ public class firstIndexOfTarget {
         if(arr[idx] == target){
             return idx;
         }else{
-            int fiisa = firstIndex(arr, idx + 1, target);
+            int fiisa = firstIndex(arr, idx + 1, target);  // fiisa = first index in smaller array
             return fiisa;
         }
     }
