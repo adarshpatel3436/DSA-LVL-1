@@ -10,7 +10,7 @@ public class getMazePaths {
         int m = sc.nextInt();
 
         ArrayList<String> paths = getMazePaths(1, 1, n, m);
-        System.out.println(paths);
+        System.out.println(paths );
     }
      // sr - source row
      // sc - source column
