@@ -10,7 +10,7 @@ public class NQueens {
         printNQueens(chess, "", 0);
 
     }
-    public static void printNQueens(int[][] chess, String qsf, int row){
+    public static void printNQueens(int[][] chess, String qsf, int row){  // qsf = queen so far
         if(row == chess.length){
             System.out.println(qsf + ".");
             return;
