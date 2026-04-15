@@ -1,6 +1,5 @@
-package String;
+package StringAndArrayList;
 
-import java.awt.dnd.DragGestureEvent;
 import java.util.Scanner;
 
 public class palindromicSubstrings {

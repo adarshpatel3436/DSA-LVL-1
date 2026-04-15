@@ -1,4 +1,4 @@
-package String;
+package StringAndArrayList;
 
 import java.util.Scanner;
 

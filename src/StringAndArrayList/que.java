@@ -1,4 +1,4 @@
-package String;
+package StringAndArrayList;
 
 public class que {
     public static void main(String[] args) {

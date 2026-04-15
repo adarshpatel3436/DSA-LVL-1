@@ -1,4 +1,4 @@
-package String;
+package StringAndArrayList;
 
 public class aboutStringBuilder {
     public static void main(String[] args) {

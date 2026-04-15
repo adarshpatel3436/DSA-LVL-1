@@ -1,6 +1,5 @@
-package String;
+package StringAndArrayList;
 
-import java.sql.Struct;
 import java.util.Scanner;
 
 public class allAboutString {
