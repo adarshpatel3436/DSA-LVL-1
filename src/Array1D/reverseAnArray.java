@@ -1,4 +1,4 @@
-package ArrayLvl1;
+package Array1D;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

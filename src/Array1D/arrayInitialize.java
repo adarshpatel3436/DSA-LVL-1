@@ -1,4 +1,4 @@
-package ArrayLvl1;
+package Array1D;
 
 public class arrayInitialize {
     public static void main(String[] args) {

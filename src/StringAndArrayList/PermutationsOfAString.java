@@ -29,7 +29,7 @@ public class PermutationsOfAString {
         for (int i = n; i >= 1 ; i--) {
             val *= i;
         }
-        return val;
+        return val ;
     }
 
 
