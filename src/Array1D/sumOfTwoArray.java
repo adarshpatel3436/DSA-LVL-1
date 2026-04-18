@@ -33,10 +33,11 @@ public class sumOfTwoArray {
             }
 
             if(j >= 0){
-                d += a2[i];
+
+                d += a2[j];
             }
 
-            c = c/10;
+            c = d/10;
             d = d%10;
 
             sum[k] = d;
