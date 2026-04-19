@@ -23,3 +23,4 @@ public class binarySearchAlgo {
         System.out.println(-1);
     }
 }
+
