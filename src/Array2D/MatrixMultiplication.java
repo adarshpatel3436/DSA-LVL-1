@@ -12,8 +12,8 @@ public class MatrixMultiplication {
         int c1 = sc.nextInt();
 
         int[][] m1 = new int[r1][c1];
-        for (int i = 0; i < r1; i++) {
-            for (int j = 0; j < c1; j++) {
+        for (int i = 0; i < m1.length; i++) {
+            for (int j = 0; j < m1[0].length; j++) {
                 m1[i][j] = sc.nextInt();
             }
         }
