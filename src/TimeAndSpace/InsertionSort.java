@@ -26,9 +26,9 @@ public class InsertionSort {
         }
     }
 
-    public static boolean isGreater(int[] arr, int j, int i){
+    public static boolean isGreater(int[] arr, int i, int j){
         System.out.println("comparing " + arr[i] + " and "+ arr[j]);
-        if(arr[i] < arr[j]){
+        if(arr[i] > arr[j]){
             return true;
         }else {
             return false;
@@ -44,7 +44,7 @@ public class InsertionSort {
 
     public static void display(int[] arr){
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
 }
