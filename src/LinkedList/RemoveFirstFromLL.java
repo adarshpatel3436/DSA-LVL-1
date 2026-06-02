@@ -76,3 +76,14 @@ public class RemoveFirstFromLL {
         }
     }
 }
+
+// input
+// addLast 10
+// addLast 20
+// addLast 30
+// display
+// size
+// removeFirst
+// display
+// size
+// quit
