@@ -58,11 +58,13 @@ public class displayAndSizeOfLL {
             if (str.startsWith("addLast")) {
                 int val = Integer.parseInt(str.split(" ")[1]);
                 list.addLast(val);
+            } else if (str.startsWith("display")) {
+                list.display();
+            } else if (str.startsWith("size")) {
+                System.out.println(list.size());
             }
 
             str = br.readLine();
         }
-        list.display();
-        list.size();
     }
 }
