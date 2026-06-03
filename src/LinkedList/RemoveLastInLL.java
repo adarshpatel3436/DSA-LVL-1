@@ -161,6 +161,10 @@ public class RemoveLastInLL {
             } else if (str.startsWith("addFirst")) {
                 int val = Integer.parseInt(str.split(" ")[1]);
                 list.addFirst(val);
+            } else if (str.startsWith("addAt")){
+                int idx = Integer.parseInt(str.split(" ")[1]);
+                int val = Integer.parseInt(str.split(" ")[2]);
+                list.addAt(idx, val);
             } else if (str.startsWith("removeLast")) {
                 list.removeLast();
             }
