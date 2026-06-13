@@ -310,14 +310,15 @@ public class KReverseInLL {
         public void kReverse(int k){
             LinkedList prev = null;
 
-            while (this.size > 0){
+            while (this.size > 0) {
                 LinkedList curr = new LinkedList();
 
-                if(this.size >= k)
-                for (int i = 0; i < k; i++) {
-                    int val = this.getFirst();
-                    this.removeFirst();
-                    curr.addFirst(val);
+                if (this.size >= k) {
+                    for (int i = 0; i < k; i++) {
+                        int val = this.getFirst();
+                        this.removeFirst();
+                        curr.addFirst(val);
+                    }
                 }else{
                     int os = this.size();
                     for (int i = 0; i < os; i++) {
