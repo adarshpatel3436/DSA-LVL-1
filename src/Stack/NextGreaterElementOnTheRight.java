@@ -55,3 +55,15 @@ public class NextGreaterElementOnTheRight {
         return nge;
     }
 }
+
+
+// test case
+//Input
+//5
+//2
+//5
+//9
+//3
+//1
+//Output
+//5 9 -1 -1 -1
